@@ -1,0 +1,89 @@
+/* ========== Styling Header.jsx ========== */
+header {
+    min-height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+} 
+
+.header__container {
+    text-align: center;
+    height: 80vh;
+    bottom: 0;
+    position: relative;
+}
+
+/* ========== Styling CTA.jsx ========== */
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* ========== Styling HeaderSocials.jsx ========== */
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.header__socials::after {
+    content: "";
+    width: 4px;
+    height: 4rem;
+    background: var(--color-primary);
+    border-radius: 15px;
+}
+
+/* ========== Styling My Photo.jsx ========== */
+.me {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 20rem;
+    position: absolute;
+    left: calc(50% - 10rem);
+    border-radius: 12rem 12rem 0 0;
+    margin-top: 4rem;
+    overflow: hidden;
+    padding: 5rem 2rem 2rem 2rem;
+}
+
+/* ========== Styling Scroll Down ========== */
+.scroll__down {
+    position: absolute;
+    right: 0;
+    bottom: 3rem;
+    writing-mode: vertical-lr;
+    font-weight: 300;
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================  */
+@media screen and (max-width: 1024px) {
+    header {
+        min-height: 60vh;
+    }
+
+    .header__container {
+        height: 60vh;
+    }
+}
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================  */
+@media screen and (max-width: 600px) {
+    header {
+        min-height: 100vh;
+    }
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+}
+
+
+
+
+

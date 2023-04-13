@@ -21,7 +21,7 @@
   --color-white: #ffff;
   --color-light: rgba(255, 255, 255, 0.6);
   --transition: all 400ms ease;
-  
+
   /* Width of the container wrt screen size */
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -93,7 +93,7 @@ a:hover {
 
 .btn {
     width: max-content;
-    display: block;
+    display: inline-block;
     color: var(--color-primary);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
