@@ -42,7 +42,7 @@ header {
 /* ========== Styling My Photo.jsx ========== */
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 20rem;
+    width: 20rem; 
     position: absolute;
     left: calc(50% - 10rem);
     border-radius: 12rem 12rem 0 0;
