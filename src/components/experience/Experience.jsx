@@ -11,7 +11,7 @@ const Experience = () => {
       <div className="contianer experience__container">
 
       {/* Frontend Technology Section */}
-        <div className="experience__frontend">
+        <div className="experience__frontend ">
           <h3>Frontend Development</h3>
             <div className="experience__content">
               <article className="experience__details">
@@ -22,7 +22,7 @@ const Experience = () => {
 
               <article className="experience__details">
                 <MdVerified className='verified__icon' />
-                <h4>CSS3 / SASS / SCSS</h4>
+                <h4>CSS3 / SASS</h4>
                 <small className="text-light">Experienced</small>
               </article>
 
@@ -47,7 +47,7 @@ const Experience = () => {
         </div>
 
       {/* Backend Technology Section */}
-        <div className="experience__frontend">
+        <div className="experience__backend">
           <h3>Blockchain Development</h3>
             <div className="experience__content">
               <article className="experience__details">
@@ -68,6 +68,11 @@ const Experience = () => {
                 <small className="text-light">Experienced</small>
               </article>
 
+              <article className="experience__details">
+                <MdVerified className='verified__icon' />                
+                <h4>Metamask</h4>
+                <small className="text-light">Experienced</small>
+              </article>
               <article className="experience__details">
                 <MdVerified className='verified__icon' />                
                 <h4>Metamask</h4>

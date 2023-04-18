@@ -44,7 +44,7 @@ const About = () => {
 
     {/* Text Content */}
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maiores excepturi tempora quas, sequi, quam impedit veniam numquam nisi quod quia corrupti sunt praesentium vitae aperiam. Corporis culpa eveniet natus similique molestiae iure, eaque earum tempora cupiditate omnis blanditiis sed aperiam laudantium voluptatibus at doloremque provident itaque repellendus asperiores incidunt.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ut. Cum, adipisci? Distinctio blanditiis accusamus sit optio dicta a rem? Perspiciatis expedita eos eligendi sit corporis ratione, dicta eum quibusdam.
       </p>
 
     {/* CTA Section */}

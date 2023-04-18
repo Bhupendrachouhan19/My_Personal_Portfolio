@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 35% 50%;
     grid-template-rows: 1;
-    gap: 10%;
+    gap: 5%;
 }
 
 .about__me {

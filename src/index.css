@@ -63,7 +63,8 @@ h1 {
 }
 
 section {
-    height: 100vh;
+    padding-top: 2rem;
+    min-height: 100vh;
 }
 
 /* h2 is a direct child to every 'section' */
