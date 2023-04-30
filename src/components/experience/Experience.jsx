@@ -22,7 +22,7 @@ const Experience = () => {
 
               <article className="experience__details">
                 <MdVerified className='verified__icon' />
-                <h4>CSS3 / SASS</h4>
+                <h4>CSS3</h4>
                 <small className="text-light">Experienced</small>
               </article>
 
