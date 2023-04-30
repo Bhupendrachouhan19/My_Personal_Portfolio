@@ -13,7 +13,7 @@ const Header = () => {
         <CTA />
 
         {/* My Photo */}
-        <div><img src={ME} className="me" alt="Bhupendra Chouhan" /></div>
+        <div><img src={ME} className="me" width="500px" alt="Bhupendra Chouhan" /></div>
 
       
         <a href="#contact" className='scroll__down'>Scroll Down</a>        
