@@ -1,0 +1,50 @@
+.certificates__container .certificate {
+  /* border: solid red 3px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.cert__image {
+  grid-area: 1/1/3/2;
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto 1rem;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 0.4rem solid var(--color-primary-variant);
+  bottom: -50%;
+  
+}
+
+
+.cert__text {
+  display: grid;
+  /* border: 0.4rem solid purple; */
+  gap: 2.5rem;
+  font-size: larger;
+}
+
+.cert__brief {
+  /* border: 0.4rem solid greenyellow; */
+  color : var(--color-primary);
+}
+
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================  */
+@media screen and (max-width: 600px) {
+  .certificates__container .certificate {
+    grid-template-columns: 1fr;
+    margin-bottom: 1.3rem;
+  }
+
+  .cert__text {
+    gap: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .cert__text h1 {
+    font-size: 1.5rem;
+  }
+}
