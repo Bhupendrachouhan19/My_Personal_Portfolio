@@ -3,9 +3,9 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG4 from '../../assets/portfolio4.png'
 import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/portfolio6.png'
 
 
 // Portfolio Items Data:
@@ -13,42 +13,42 @@ const portfolioItemsData = [
   {
     id: 1,
     image: IMG1,
-    title: 'This the is the project title',
+    title: 'Responsive Card Hover Effect',
     github: 'https://github.com/bhupendrachouhan19',
     demo: 'https://dribble.com/Alien_pixels' 
   },
   {
     id: 2,
     image: IMG2,
-    title: 'This the is the project title',
+    title: 'Newsletter + Mass Emailing Site',
     github: 'https://github.com/bhupendrachouhan19',
     demo: 'https://dribble.com/Alien_pixels' 
   },
   {
     id: 3,
     image: IMG3,
-    title: 'This the is the project title',
+    title: 'ARP Spoofing in SDN',
     github: 'https://github.com/bhupendrachouhan19',
     demo: 'https://dribble.com/Alien_pixels' 
   },
   {
     id: 4,
     image: IMG4,
-    title: 'This the is the project title',
+    title: 'Creative Product Page (UI/UX)',
     github: 'https://github.com/bhupendrachouhan19',
     demo: 'https://dribble.com/Alien_pixels' 
   },
   {
     id: 5,
     image: IMG5,
-    title: 'This the is the project title',
+    title: 'Sport T-Shirt Design',
     github: 'https://github.com/bhupendrachouhan19',
     demo: 'https://dribble.com/Alien_pixels' 
   },
   {
     id: 6,
     image: IMG6,
-    title: 'This the is the project title',
+    title: 'Blood Donation Camp Poster',
     github: 'https://github.com/bhupendrachouhan19',
     demo: 'https://dribble.com/Alien_pixels' 
   }
