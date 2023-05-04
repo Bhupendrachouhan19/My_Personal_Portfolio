@@ -77,8 +77,8 @@ const Certificates = () => {
                   <img src={cert} alt="Avatar One" />
                 </div>
                 <div className="cert__text">
-                  <h1 className='cert__title'>{title}</h1>
-                  <a href={certLink} className='btn btn-primary'>Certificate Link</a>
+                  <h2 className='cert__title'>{title}</h2>
+                  <a href={certLink} className='btn btn-primary cert__btn'>Certificate Link</a>
                 </div>
               </SwiperSlide>
             )

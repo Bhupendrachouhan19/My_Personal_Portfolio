@@ -3,26 +3,26 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 1.3rem;
 }
 
 .cert__image {
   grid-area: 1/1/3/2;
+  width: 70%;
   margin: 0 auto 1rem;
   overflow: hidden;
   border-radius: 15px;
-  /* border: 0.4rem solid var(--color-primary-variant); */
-  bottom: -50%;
-  }
+  border: 0.4rem solid var(--color-primary-variant);
+  /* bottom: -50%; */
+}
 
 .cert__image img {
-  width: 80%;
 }
 
 .cert__text {
   display: grid;
   /* border: 0.4rem solid purple; */
-  gap: 2.5rem;
+  gap: 1rem;
   font-size: larger;
 }
 
@@ -36,15 +36,21 @@
 @media screen and (max-width: 600px) {
   .certificates__container .certificate {
     grid-template-columns: 1fr;
-    margin-bottom: 1.3rem;
+    margin-bottom: 3rem;
+    justify-content: center;
   }
 
   .cert__text {
     gap: 1.5rem;
     font-size: 1rem;
+    text-align: center;
   }
 
-  .cert__text h1 {
+  .cert__text h2 {
     font-size: 1.5rem;
+  }
+
+  .cert__btn {
+    justify-self: center;
   }
 }
