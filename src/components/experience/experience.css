@@ -25,6 +25,11 @@
     border: 0.1rem solid var(--color-bg-variant);
 }
 
+.experience__frontend h3, .experience__backend h3 {
+    width: 100%;
+    text-align: center;
+}
+
 .experience__content {
     /* border: solid 3px rgb(219, 97, 3); */
     display: grid;
