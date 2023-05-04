@@ -10,6 +10,7 @@ const Header = () => {
       <div className="container header__container">
         <h3>👋 Hii I'm,</h3>
         <h1>Bhupendra Chouhan</h1>
+        <h4><i>{`<<`} WEB DEVELOPER / UI-UX / GRAPHIC DESIGNER / CONTENT CREATOR {`>>`}</i></h4>
         <CTA />
 
         {/* My Photo */}

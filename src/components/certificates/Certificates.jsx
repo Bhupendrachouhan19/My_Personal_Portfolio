@@ -22,13 +22,13 @@ const certicicatesItemsData = [
     id: 1,
     cert: CERT1,
     title: 'Wadhwani Foundation',
-    brief: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem voluptatum sapiente vero harum deleniti facere vitae, tenetur sunt ab accusamus, quo id nobis, perferendis praesentium fugit. Voluptate iusto facilis quidem.'
+    brief: '.'
   },
   {
     id: 2,
     cert: CERT2,
     title: 'Scintfic',
-    brief: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem voluptatum sapiente vero harum deleniti facere vitae, tenetur sunt ab accusamus, quo id nobis, perferendis praesentium fugit. Voluptate iusto facilis quidem.'
+    brief: ''
   },
   {
     id: 3,

@@ -44,7 +44,9 @@ const About = () => {
 
     {/* Text Content */}
       <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ut. Cum, adipisci? Distinctio blanditiis accusamus sit optio dicta a rem? Perspiciatis expedita eos eligendi sit corporis ratione, dicta eum quibusdam.
+      Looking for a dynamic and creative web developer and graphic designer?  <br/>
+      <i>Look no further! </i><br/> 
+      With a passion for all things design and technology, this multi-talented creative guy has the skills and expertise to bring your ideas to life. Whether you're looking for a sleek and modern website, eye-catching graphics, or engaging social media content, you can count on this innovative professional to deliver top-notch results that will help your brand stand out from the crowd. So why wait? Let's work together to create something truly remarkable today!
       </p>
 
     {/* CTA Section */}
