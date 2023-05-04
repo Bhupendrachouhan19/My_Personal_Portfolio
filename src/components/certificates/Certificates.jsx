@@ -55,7 +55,7 @@ const Certificates = () => {
   return (
     <section id='certificates'>
       <h5>My Achievements</h5>
-      <h2>Certificates</h2>
+      <h2>🌟 Certificates 🌟</h2>
       <Swiper className="container certificates__container"
         spaceBetween={30}
         centeredSlides={true}
