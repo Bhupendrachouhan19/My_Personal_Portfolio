@@ -39,7 +39,7 @@ const certicicatesItemsData = [
   {
     id: 4,
     cert: CERT5,
-    title: 'IEEE Englis for Technical Professionals',
+    title: 'IEEE English for Technical Professionals',
     certLink: 'https://i.imgur.com/mDSq41W.jpg'
   },
   {
