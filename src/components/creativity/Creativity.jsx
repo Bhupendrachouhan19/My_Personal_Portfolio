@@ -21,19 +21,13 @@ const creativityItemsData = [
         id: 0,
         create: "sNMQ5xwFRlg",
         title: 'Youtube: IIIT Naya Raipur Vlog',
-        brief: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem voluptatum sapiente vero harum deleniti facere vitae, tenetur sunt ab accusamus, quo id nobis, perferendis praesentium fugit. Voluptate iusto facilis quidem.'
+        brief: "🔥Checkout my vlog. Take a close look at the campus of International Institute of Information technology(IIIT), Naya Raipur, Chhattisgarh.  Hope you guys like the vlog. Please Subscrib!!! 🙂❤ "
     },
     {
         id: 1,
         create: CREATE1,
         title: 'Cricket',
-        brief: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem voluptatum sapiente vero harum deleniti facere vitae, tenetur sunt ab accusamus, quo id nobis, perferendis praesentium fugit. Voluptate iusto facilis quidem.'
-    },
-    {
-        id: 2,
-        create: CREATE2,
-        title: 'Sports',
-        brief: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem voluptatum sapiente vero harum deleniti facere vitae, tenetur sunt ab accusamus, quo id nobis, perferendis praesentium fugit. Voluptate iusto facilis quidem.'
+        brief: 'And, Yeah!😎 I am also a Part-time, Underrated, Underground, Cricketer🏏. That Jersy is Designed By ME😁.'
     }
 ]
 

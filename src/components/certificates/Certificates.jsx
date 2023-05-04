@@ -22,31 +22,31 @@ const certicicatesItemsData = [
     id: 1,
     cert: CERT1,
     title: 'Wadhwani Foundation',
-    brief: '.'
+    certLink: 'https://i.imgur.com/hm6S9dz.jpg'
   },
   {
     id: 2,
-    cert: CERT2,
-    title: 'Scintfic',
-    brief: ''
+    cert: CERT3,
+    title: 'Google Analytics Academy',
+    certLink: 'https://i.imgur.com/4rnU3CU.jpg'
   },
   {
     id: 3,
-    cert: CERT3,
-    title: 'Google Analytics Academy',
-    brief: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem voluptatum sapiente vero harum deleniti facere vitae, tenetur sunt ab accusamus, quo id nobis, perferendis praesentium fugit. Voluptate iusto facilis quidem.'
+    cert: CERT4,
+    title: 'The Fundamentals of Digital Marketing',
+    certLink: 'https://i.imgur.com/MxzSfyf.jpg'
   },
   {
     id: 4,
-    cert: CERT4,
-    title: 'The Fundamentals of Digital Marketing',
-    brief: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem voluptatum sapiente vero harum deleniti facere vitae, tenetur sunt ab accusamus, quo id nobis, perferendis praesentium fugit. Voluptate iusto facilis quidem.'
+    cert: CERT5,
+    title: 'IEEE Englis for Technical Professionals',
+    certLink: 'https://i.imgur.com/mDSq41W.jpg'
   },
   {
     id: 5,
-    cert: CERT5,
-    title: 'IEEE English for Technical Professionals',
-    brief: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem voluptatum sapiente vero harum deleniti facere vitae, tenetur sunt ab accusamus, quo id nobis, perferendis praesentium fugit. Voluptate iusto facilis quidem.'
+    cert: CERT2,
+    title: 'Scintfic 2k21',
+    certLink: 'https://i.imgur.com/R0WelgD.jpg'
   },
 ]
 
@@ -70,7 +70,7 @@ const Certificates = () => {
         modules={[Autoplay, Pagination, Navigation]}
       >
         {
-          certicicatesItemsData.map(({id, cert, title, brief}) => {
+          certicicatesItemsData.map(({id, cert, title, certLink}) => {
             return (
               <SwiperSlide key={id} className="certificate">
                 <div className="cert__image">
@@ -78,7 +78,7 @@ const Certificates = () => {
                 </div>
                 <div className="cert__text">
                   <h1 className='cert__title'>{title}</h1>
-                  <h4 className='cert__brief'>{brief}</h4>
+                  <a href={certLink} className='btn btn-primary'>Certificate Link</a>
                 </div>
               </SwiperSlide>
             )

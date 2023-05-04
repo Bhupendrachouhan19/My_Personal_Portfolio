@@ -8,16 +8,16 @@
 
 .cert__image {
   grid-area: 1/1/3/2;
-  width: fit-content;
-  height: fit-content;
   margin: 0 auto 1rem;
   overflow: hidden;
   border-radius: 15px;
-  border: 0.4rem solid var(--color-primary-variant);
+  /* border: 0.4rem solid var(--color-primary-variant); */
   bottom: -50%;
-  
-}
+  }
 
+.cert__image img {
+  width: 80%;
+}
 
 .cert__text {
   display: grid;
