@@ -79,12 +79,14 @@ const Portfolio = () => {
           portfolioItemsData.map(({id, image, title, tech, github, desc, demo})=>{
             return (
               <article key={id} className="portfolio__item">
+                <div className="portfolio__item-content">
                 <div className="portfolio__item-image">
                   <img src={image} alt="" />
                 </div>
                 <h3>{title}</h3>  
                 <h5 className='tech'>Technology : {tech}</h5>  
-                <h5>{desc}</h5>  
+                <h5 className='desc'>{desc}</h5>  
+                </div>
                 <div className="portfolio__item-cta">
                   <a href={github} className='btn' target='_black'>Github</a>
                   <a href={demo} className='btn btn-primary' target='_black'>Live Demo</a>
