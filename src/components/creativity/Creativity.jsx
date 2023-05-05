@@ -47,7 +47,7 @@ const Creativity = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination, Navigation]}
+        modules={[Autoplay, Pagination, Navigation]}
       >
 
               <SwiperSlide key={creativityItemsData[0].id} className="creative">
