@@ -15,18 +15,18 @@ const portfolioItemsData = [
     image: IMG1,
     title: 'Responsive Card Hover Effect',
     tech: 'HTML, CSS, Javascript',
-    desc: 'This is a small but really cool project I made while exploring the power of pure CSS3',
     github: 'https://github.com/bhupendrachouhan19',
-    demo: 'https://dribble.com/Alien_pixels' 
+    desc: 'This is a small but really cool project I made while exploring the power of pure CSS3',
+    demo: 'https://github.com/bhupendrachouhan19' 
   },
   {
     id: 2,
     image: IMG2,
     title: 'Newsletter + Mass Emailing Site',
     tech: 'HTML, CSS, Django',
-    desc: "This project has two interface (1st) Newsletter and (2nd) Admin. User can put put join the Newsletter by entering their email adress. These email ID then stored a '.csv' file. Now, the admin from it's interface can view or download this '.csv' file' and can also write and send email to all the email ID's in that list with just One Click.",
     github: 'https://github.com/bhupendrachouhan19',
-    demo: 'https://dribble.com/Alien_pixels' 
+    desc: "This project has two interface (1st) Newsletter and (2nd) Admin. User can put put join the Newsletter by entering their email adress. These email ID then stored a '.csv' file. Now, the admin from it's interface can view or download this '.csv' file' and can also write and send email to all the email ID's in that list with just One Click.",
+    demo: 'https://github.com/bhupendrachouhan19' 
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const portfolioItemsData = [
     tech: 'Wireshark, Mininet, P4 Programming',
     github: 'https://github.com/bhupendrachouhan19',
     desc: 'In this project I have performed ARP Soofing in SDN environment, using mininet to create the Topology. I also wrote a python code to spoof the MAC address of the Victim Host and the Switch',
-    demo: 'https://dribble.com/Alien_pixels' 
+    demo: 'https://github.com/bhupendrachouhan19' 
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const portfolioItemsData = [
     tech: 'Figma',
     github: 'https://github.com/bhupendrachouhan19',
     desc: 'I made this production page for a shoe ecommerce website while learning Figma, figma components & layering.',
-    demo: 'https://dribble.com/Alien_pixels' 
+    demo: 'https://github.com/bhupendrachouhan19' 
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ const portfolioItemsData = [
     tech: 'Adobe Illustrator',
     github: 'https://github.com/bhupendrachouhan19',
     desc: "This is the T-Shirt Design I made for my team 'Team Titans'. Our team wore this t-shirt in IIIT-NR's most popular sport event 'Aarambh5.0'.",
-    demo: 'https://dribble.com/Alien_pixels' 
+    demo: 'https://github.com/bhupendrachouhan19' 
   },
   {
     id: 6,
@@ -62,7 +62,7 @@ const portfolioItemsData = [
     tech: 'Adobe Photoshop',
     github: 'https://github.com/bhupendrachouhan19',
     desc: "This is poster, I made for a blood donation camp organised by NSS and SAC in our Institute. That blood drop with text, matching perfectly with the main heading i.e. 'Donation Camp' took me almost 3hrs",
-    demo: 'https://dribble.com/Alien_pixels' 
+    demo: 'https://github.com/bhupendrachouhan19' 
   }
 ]
 
