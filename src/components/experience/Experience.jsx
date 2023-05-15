@@ -100,7 +100,7 @@ const Experience = () => {
               <article className="experience__details">
                 <MdVerified className='verified__icon' />
                 <h4>Figma</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </article>
 
               <article className="experience__details">
