@@ -1,7 +1,7 @@
 .experience__container {
     /* border: 3px solid salmon; */
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     place-items: center;
     gap: 3rem;
 }
@@ -60,9 +60,9 @@
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================  */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1181px) {
     .experience__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr);
         gap: 1.5rem;
     }
 

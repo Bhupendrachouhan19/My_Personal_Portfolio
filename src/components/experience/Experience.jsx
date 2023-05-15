@@ -81,6 +81,36 @@ const Experience = () => {
             </div>
         </div>
 
+      {/* Graphic Designing Section */}
+        <div className="experience__frontend">
+          <h3>Graphic Designing Tools</h3>
+            <div className="experience__content">
+              <article className="experience__details">
+                <MdVerified className='verified__icon' />
+                <h4>Photoshop</h4>
+                <small className="text-light">Experienced</small>
+              </article>
+
+              <article className="experience__details">
+                <MdVerified className='verified__icon' />                
+                <h4>Illustrator</h4>
+                <small className="text-light">Experienced</small>
+              </article>
+
+              <article className="experience__details">
+                <MdVerified className='verified__icon' />
+                <h4>Figma</h4>
+                <small className="text-light">Intermediate</small>
+              </article>
+
+              <article className="experience__details">
+                <MdVerified className='verified__icon' />
+                <h4>Canva</h4>
+                <small className="text-light">Experienced</small>
+              </article>
+            </div>
+        </div>
+
       {/* Graphic Designing Tools Section */}
         {/* <div className="experience__frontend">
           <h3>Graphic Designing Tools</h3>
