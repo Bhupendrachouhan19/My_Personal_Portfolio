@@ -75,7 +75,7 @@ const Experience = () => {
               </article>
               <article className="experience__details">
                 <MdVerified className='verified__icon' />                
-                <h4>Metamask</h4>
+                <h4>Hardhat</h4>
                 <small className="text-light">Experienced</small>
               </article>
             </div>
