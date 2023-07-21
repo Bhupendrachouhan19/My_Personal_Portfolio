@@ -87,10 +87,10 @@ const Portfolio = () => {
                 <h5 className='tech'>Technology : {tech}</h5>  
                 <h5 className='desc'>{desc}</h5>  
                 </div>
-                <div className="portfolio__item-cta">
+                {/* <div className="portfolio__item-cta">
                   <a href={github} className='btn' target='_black'>Github</a>
                   <a href={demo} className='btn btn-primary' target='_black'>Live Demo</a>
-                </div>
+                </div> */}
               </article>
             )
           })
